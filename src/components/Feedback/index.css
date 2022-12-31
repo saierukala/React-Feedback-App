@@ -1,0 +1,96 @@
+/* Write your CSS code here. */
+.feedback-bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  max-width: 400px;
+}
+
+.feedback-options {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 400px;
+  padding: 0px;
+}
+
+.feedback-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-image {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.feedback-heading {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-size: 18px;
+}
+
+.feedback-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+.thankyou-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  padding: 50px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.love-image {
+  width: 100px;
+  height: 100px;
+}
+
+.thankyou-description {
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-container {
+    max-width: 600px;
+  }
+
+  .thankyou-container {
+    max-width: 600px;
+  }
+
+  .feedback-options {
+    width: 550px;
+  }
+
+  .feedback-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .feedback-heading {
+    font-size: 24px;
+  }
+}
